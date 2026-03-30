@@ -1,0 +1,17 @@
+''' 
+Crie um script que solicita o usuario e a senha do estudante. Enquanto o estudante não digitar o usuario e a senha corretmente o programa
+deve continuar solicitando as credenciais. Quando  o usuario digita-las corretamente o programa deve imprimir a mensagem de bem vindo
+e terminar.O usuario e a senha deve ssr fixo (padrão)
+usuario = admin
+senha = admin123
+'''
+while True:
+    usuario = input("Usuario: ")
+    senha = input("Senha: ")
+
+    if (usuario == 'admin' and senha == 'admin123'):
+        print('Good morning sunshine')
+        break
+    else:
+        print('Usario ou senha invalidos')
+

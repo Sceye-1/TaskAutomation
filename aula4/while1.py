@@ -1,5 +1,5 @@
-1 = 0
+i = 10
 
-while 1 < 10:
-    print("Teste", 1)
-    1 = 1 + 1
+while i > 0:
+    print("Teste", i)
+    i = i - 1
